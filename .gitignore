@@ -1,0 +1,32 @@
+# Windows / PowerShell / IDE
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+*.ps1.bak
+
+# OS
+.DS_Store
+
+# Sensitive — never commit these!
+*.env
+*.key
+*.pem
+secrets.*
+config.local.*
+id_rsa
+id_ed25519
+*.pub.sig
+
+# Downloads / build artifacts
+*.zip
+*.tar.gz
+*.msixbundle
+*.appx
